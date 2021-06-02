@@ -10,3 +10,9 @@ h1 {
 .fuente-negrita {
   font-weight: bold;
 }
+.estilo-normal{
+  font-style:normal;
+}
+.estilo-italic{
+  font-style:italic;
+}
