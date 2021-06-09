@@ -38,3 +38,44 @@ h1 {
        url('../fonts/permanent-marker-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/permanent-marker-v10-latin-regular.svg#PermanentMarker') format('svg'); /* Legacy iOS */
 }
+p.font-30 {
+  font-size: 30px;
+  font-family: 'Knewave', cursive;
+  color:lightsalmon;
+}
+span.font-crazy {
+  font-weight: bold;
+  font-family: 'Merienda', cursive;
+  color:lightcoral;
+}
+
+.font-guapa {
+  font-family: 'Overpass Mono', monospace;
+  color:darkgreen;
+  font-size: 30px;
+}
+p {
+  font-size: 2em;
+}
+.sandy-brown {
+  color:sandybrown;
+}
+.color-casa {
+  color:rgb(245,184,8)
+}
+.color-indianRed {
+  color:#cd5c5c;
+}
+.color-solido {
+  color:rgb(139,190,0);
+}
+.color-madera {
+  color:rgb(103,70,55);
+}
+.espaciado-letras {
+  letter-spacing: 0.2em;
+  word-spacing: 0.6em;
+  line-height: 4em;
+
+}
+
