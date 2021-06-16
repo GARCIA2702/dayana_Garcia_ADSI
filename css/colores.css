@@ -1,0 +1,28 @@
+p.font-30 {
+    font-size: 30px;
+    font-family: 'Knewave', cursive;
+    color:lightsalmon;
+  }
+  span.font-crazy {
+    font-weight: bold;
+    font-family: 'Merienda', cursive;
+    color:lightcoral;
+  }
+  p {
+    font-size: 2em;
+  }
+  .sandy-brown {
+    color:sandybrown;
+  }
+  .color-casa {
+    color:rgb(245,184,8)
+  }
+  .color-indianRed {
+    color:#cd5c5c;
+  }
+  .color-solido {
+    color:rgb(139,190,0);
+  }
+  .color-madera {
+    color:rgb(103,70,55);
+  }
