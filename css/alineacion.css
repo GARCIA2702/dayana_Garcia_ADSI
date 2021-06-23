@@ -1,8 +1,8 @@
 .alineacion-derecha {
     text-align:right;
 }
-p. {
-    font-size:1,5em;
+p.{
+    font-size:1.5em;
 }
 .alineacion-centro {
     text-align: center;
@@ -13,3 +13,28 @@ p. {
 .alineacion-justificada {
     text-align: justify;
 }
+ .texto-indentado{
+     text-indent: 2em;
+     text-align: justify;
+     line-height: 1.1em;
+ }
+ .texto-enfatizado{
+     font-size: 2em;
+ }
+ blockquote{
+     font-style: italic;
+     color:rgb(17,148,245);
+     text-align:right;
+     font-family: 'Caveat', cursive;
+font-family: 'Patrick Hand', cursive;
+     font-size: 1.1em;
+     line-height:1.0em;
+     }
+.font-diferente{
+    font-style: italic;
+    color: black;
+    font-family: 'Caveat', cursive;
+font-family: 'Patrick Hand', cursive;
+    }
+
+
