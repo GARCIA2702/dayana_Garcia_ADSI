@@ -1,0 +1,87 @@
+h1{
+    text-align: center;
+}
+ td {
+    
+    padding: 0.8em 1em;
+    text-align: center;  
+}
+   table {
+   font-size: 20px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+ 
+ .font-inicio-font-encabezado{
+    font-family: 'Wendy One', sans-serif;
+    font-size: 50px;
+    background-color:#B5EAEA;
+ }
+ 
+ .font-cuerpo-basico{
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 900;
+    background-color:#B5EAEA;
+ }
+ .font-inicio-entrelazado{
+    font-family: 'Wendy One', sans-serif;
+    font-size: 50px;
+    background-color:#FFBCBC;
+ }
+ .font-cuerpo-final{
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 900;
+ background-color:#FFBCBC;
+ }
+ .font-inicio-comienzo{
+    font-family: 'Wendy One', sans-serif;
+    font-size: 50px;
+   background-color:#F38BA0;  
+ }
+ .font-cuerpo{
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 900;
+  background-color:#F38BA0;
+ }
+ .comienzo{
+    font-family: 'Patrick Hand', cursive;
+font-size: 40px;
+font-weight: 900;
+background-color:#B5EAEA;
+ }
+ .basico{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    background-color:#FFBCBC; 
+ }
+ .medio{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    background-color:#F38BA0; 
+
+ }
+ .atrevete{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    background-color:#B5EAEA;
+ }
+ .conquista{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    font-weight: 900; 
+    background-color:#FFBCBC;
+ }
+ .actua{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    font-weight: 900; 
+    background-color:#F38BA0;
+} 
+ .titulo{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    font-weight: 900;   
+ }
