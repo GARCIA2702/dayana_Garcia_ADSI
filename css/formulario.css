@@ -1,0 +1,32 @@
+h1 {
+   text-align: center;
+}
+
+fieldset {
+ width: 40%;
+ margin:0 auto;
+border-radius:8px;
+height:800px;
+display: block;
+background-color:rgb(238,238,238);
+border: rgb(148, 180, 164);
+font-size: 1.2em;
+line-height:2em;
+font-family: 'Unna', serif;
+font-weight: 900;
+}
+input{
+   font-size: 1em;
+   line-height: 1.5em;
+   font-family: 'Unna', serif;
+   font-weight: 900;
+}
+.formulario{
+   width: 90%;
+   margin: 2em 2em 2em 2em;
+  
+}
+.alineacion-alineacion{
+   text-align: left;
+
+}
