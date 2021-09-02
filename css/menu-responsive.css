@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-responsive ul{
+    list-style: none;
+    text-align: right;
+}
+.menu-responsive{
+    width: 100%;
+    background: rgb(41, 127, 135);
+margin: 20px 0px;
+}
+.menu-bar{
+display: none;
+}
+.menu-responsive li{
+    display: inline-block;
+    position:relative;
+}
+.menu-responsive ul li:hover {
+    background: rgb(255, 247, 174);
+}
+ .menu-responsive ul li a {
+    color:black;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+.children-producto {
+position: absolute;
+display: none;
+background:rgb(41, 127, 120);
+text-align: left;
+}
+nav ul li:hover .children-producto {
+display: block;
+width: 130%;
+text-align: left;
+}
+nav ul li .children-producto li{
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    display: block;
+}
+.menu-responsive ul li .children-producto li a{
+    display: block;
+}
+h1{
+    text-align: right;
+    margin:80px 35px 35px 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+
+p{
+    font-size: 1.3em;
+    line-height: 1.4em;
+    text-align: justify;
+    }
+    .main-content{
+margin: 30px;
+    }
+    
+@media only screen  and (max-width:680px){
+    .menu-responsive{
+    
+        background: rgb(87, 204, 153);
+        height: calc(100% - 48px);
+        position: fixed;
+        width: 50%;
+        overflow: scroll;
+        margin: 30px;
+    }
+    .menu-responsive ul li a{
+        color: rgb(68, 73, 65);
+        display: block;
+    }
+    .menu-responsive ul{
+        text-align: left;
+    }
+    h1{
+        margin-top: 35px;
+    }
+    .menu-bar{
+        display: block;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background: rgb(84, 67, 107);
+    }
+    .bt-menu{
+        display: block;
+        padding: 20px;
+        color: white;
+        font-size: 25px;
+        font-weight: 900;
+        text-decoration: none;
+    }
+    .menu-bar span {
+        font-size: 40px;
+        float: right;
+    }
+    body{
+        padding-top: 69px;
+    }
+    .menu-responsive ul li{
+        display: block;
+        border-bottom: 1px solid rgba(128, 237, 153,.5);
+    }
+    .children-producto {
+        
+        background:rgb(128, 237, 153);
+        
+        }
+        .menu-responsive ul li:hover {
+            background: rgb(128, 237, 153);
+        }
+        
+   
+}
