@@ -7,43 +7,25 @@
     <title>menu responsive</title>
     <link rel="stylesheet" href="css/menu-responsive.css">
     <link rel="stylesheet" href="fonts/style.css">
-    <link rel="stylesheet" href="css/menu-main.css">
+    <link rel="stylesheet" href="fonts/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script src="js/script.js"></script>
 </head>
 <body>
-    <nav class="clase-clase">
-        <ul class="inicio-menu">
-          <li> <a href="index.html">Inicio</a></li>
-          <li> <a href="fuentes.html">Fuentes</a> </li>
-          <li> <a href="colores.html">Colores</a></li>
-          <li> <a href="listas.html">Listas</a></li>
-          <li><a href="alineacion.html"> Alineación</a></li>
-          <li> <a href="margin-borders-padding.html">Margenes, bordes, espaciado</a></li>
-          <li> <a href="imagenes.html">Imagenes</a></li>
-          <li> <a href="tablas.html">Tablas</a></li>
-          <li> <a href="formulario.html">Formulario</a></li>
-          <li> <a href="contenedores.html">Contenedores</a></li>
-          <li> <a href="position.html">position</a></li>
-          <li> <a href="menu-vertical.html">Menu vertical</a></li>
-          <li> <a href="menu-subitems.html">menu subitems</a></li>
-          <li><a href="menu-horizontal-vertical.html">Menu horizontal-vertical</a></li>
-         <li><a href="menu-responsive.html">Menu responsive</a></li>
-      </ul>
-      </nav>
     <div class="menu-bar">
         <a class="bt-menu" href="#"> <span class="icon-menu"></span>  menu principal</a>
-
-    </div>
-    <nav class="menu-responsive">
+ </div>
+    <nav>
         <ul>
-            <li> <a href="#">Inicio</a></li>
-            <li> <a href="#">Productos</a>
-            <ul class="children-producto">
+            <li> <a href="index.html">Inicio</a></li>
+            <li class="submenu"><a href="#">Productos <span class="icon-chevron-small-down"></span></a>
+            <ul class="children">
                 <li><a href="#">Hogar</a></li>
                  <li><a href="#">Oficina</a></li>
                  <li><a href="#">viajes</a></li> 
@@ -51,9 +33,9 @@
                  <li><a href="#">Cocina</a></li>
             </ul>
             </li>
-            <li> <a href="#">Proyecto</a></li>
-            <li> <a href="#">Nuestra mision</a></li>
-            <li> <a href="#">Contactenos</a></li>
+            <li><a href="#">Proyecto</a></li>
+            <li><a href="#">Nuestra mision</a></li>
+            <li><a href="#">Contactenos</a></li>
         </ul>
     </nav>
     <div class="main-content">
