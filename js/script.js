@@ -1,6 +1,6 @@
-$(document).ready(main);
+$(document).ready (main) ;
 
-    var contador = 0;
+    var contador = 1;
 
 
      function main() {
@@ -19,8 +19,7 @@ $(document).ready(main);
             });
         }
     });
-    }
-    $("submenu").click(function(){
-$(this).children(".children").slideToggle ();
+    $(".submenu").click(function(){
+$(this).children(".children").slideToggle();
     });
-
+}
