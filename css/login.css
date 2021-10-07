@@ -1,0 +1,92 @@
+body{
+    background-image: url("../img/mundo_bg2.jpg");
+    width: 98%;
+    height: 96vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+ .main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 320px;
+    background-color: rgba(199, 194, 194, .4);
+    border-radius: 10%;
+    z-index: 10;
+}
+h2{
+    font-size: 2.5em;
+    color: rgb(64, 64, 64,);
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
+.input-pass{
+    border: none;
+    border-bottom: 1px solid rgb(20, 20, 20);
+}
+.imput-name{
+    border: none;
+    border-bottom: 1px solid rgb(20, 20, 20);
+    ;
+}
+.fas{
+color: rgb(17, 16, 16);
+}
+
+.password{
+    border: none;
+    
+}
+input{
+    border: none;
+    background-color: rgba(5, 5, 5, 0.4);
+}
+.remember-pass{
+    font-size: 1.2em;
+    text-decoration: none;
+    color:black;
+    font-family: 'Philosopher', sans-serif;
+    
+}
+.remember:hover{
+    color: rgb(140, 155, 5);
+}
+.remember{
+    color: black;
+}
+
+.submit{
+    height: 3.2em;
+    width: 260px;
+     margin-top: 20px; 
+    background-color: rgb(20, 20, 20);
+   border-radius: 10%; 
+    font-size: 18px;
+   color: white;
+   border: rgb(221, 20, 131);
+   font-family: 'Philosopher', sans-serif;
+}
+i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .password{
+     font-size: 20px;
+     color: rgb(20, 20, 20);
+ }
+ 
+ 
+
+
+
+
+
+
+
