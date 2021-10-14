@@ -27,22 +27,12 @@ h1{
     
 }
 .inicio-inicio a{
-    /* text-decoration: none;
-    color: black;
-    font-size: 1em;
-    padding: 10px 15px;
-    font-weight: 900;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    cursor: pointer;
-    border-bottom: black;
-    display: block; */
     text-decoration: none;
     color:black;
     margin: 2px;
 }
 .inicio-inicio li:hover{
-    /* background-color: darkgray */
-    background-color: rgb(248, 240, 125);
+   background-color: rgb(248, 240, 125);
   
 }
 p{
