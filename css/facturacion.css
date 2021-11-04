@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.contenedor-1{
+    margin-left:12em ;
+    /* background: black; */
+    z-index: 5;
+}
+ .form-control-plaintext{
+    text-align: right;
+} 
+/* .precio-Iva{
+
+} */
+
+.btn{
+    cursor: pointer;
+    font-size: 1.5em;
+    width: 15%;
+    font-family: 'Handlee', cursive;
+    font-family: 'Inconsolata', monospace; 
+    
+}
+ p {
+    font-family: 'Handlee', cursive;
+    font-family: 'Inconsolata', monospace;
+     font-size: 1,4em;
+     font-style: 900;
+ }
+ .form-label{
+    font-family: 'Handlee', cursive;
+    font-family: 'Inconsolata', monospace;
+    
+ }
+ .form-control-plaintext{
+    font-family: 'Handlee', cursive;
+    font-family: 'Inconsolata', monospace; 
+  
+ }
+ .precio-Iva{
+ font-weight: 900;
+ }
+body{
+    background-color: rgb(87, 15, 54);
+}
