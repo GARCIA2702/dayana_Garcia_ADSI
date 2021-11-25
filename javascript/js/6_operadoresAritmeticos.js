@@ -1,6 +1,6 @@
 "use strict"
 //hallar el total (suma)
-console.log("===suma===)"
+console.log("===suma===")
 var producto1 = 2540;
 var producto2 = 3450;
 var producto3 = 4530;
