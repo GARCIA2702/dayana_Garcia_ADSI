@@ -8,31 +8,44 @@
     <link rel="stylesheet" href="css/facturacion.css">
     <link rel="stylesheet" href="css/brootstrap.css">
     <link rel="stylesheet" href="icons/all.css">
+    <script src="js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Inconsolata&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="contenido-encabezado">
+        <nav>
+        <ul>
+            <div class="menu-bar">
+                <a href="indexhtml"><span class="icon-menu"><i class="fas fa-angle-double-left"></i></span></a>
+            </div>
+            <li class="registro"><a href="*">Registrar Usuario</a></li>
+            <li><a href="*">Registrar Proveedor</a></li>
+            <li><a href="facturacion-bootstrap.html">Facturación</a></li>
+        </ul>
+    </nav>
+    </div>
  <div class="contenedor-1">
     <h1>FACTURA</h1>
     <p>Facturado a:</p>
     <P>Identificacion: cc. 1004492809</P>
     <p>Cliente: karen dayana garcia castro</p>
     <p>Direccion: vereda bella vista</p>
-    </div>
+    
         <div class="container">
         <div class="row"> 
         <div class="mb-2 col-4">
-        <label for="exampleFormControlInput1" class="form-label" style="margin-left: 4em;">Codigo</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="5879342" style="margin-left: 4em;">
+        <label for="exampleFormControlInput1" class="form-label" style="margin-left: 1em;">Codigo</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="5879342" style="margin-left: 1em;">
         </div>
         <div class="mb-2 col-3">
-        <label for="exampleFormControlTextarea1" class="form-label" style="margin-left: 4em;">Stock</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="20" style="margin-left: 4em;">
+        <label for="exampleFormControlTextarea1" class="form-label" style="margin-left: 1em;">Stock</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="20" style="margin-left: 1em;">
         </div>
-        <div class="mb-2 col-5">
-        <label for="exampleFormControlTextarea1" class="form-label" style="margin-left: 4em;">Fecha</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="27/3/2021" style="margin-left: 4em;">
+        <div class="mb-3 col-4">
+        <label for="exampleFormControlTextarea1" class="form-label" style="margin-left: 1em;">Fecha</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="27/3/2021" style="margin-left: 1em;">
         </div>
         </div>
         </div>
@@ -40,12 +53,12 @@
         <div class="container">
         <div class="row"> 
         <div class="mb-2 col-9">
-        <label for="exampleFormControlInput1" class="form-label" style="margin-left: 4em;">Descripcion</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="varilla de 8 metros" style="margin-left: 4em;">
+        <label for="exampleFormControlInput1" class="form-label" style="margin-left: 1em;">Descripcion</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="varilla de 8 metros" style="margin-left: 1em;">
         </div>
-        <div class="mb-1 col-3">
-        <label for="exampleFormControlInput1" class="form-label" style="margin-left: 4em;">Cantidad</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="14" style="margin-left: 4em;">
+        <div class="mb-2 col-2">
+        <label for="exampleFormControlInput1" class="form-label" style="margin-left: 1em;">Cantidad</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="14" style="margin-left: 1em;">
        
         </div>
         </div>
@@ -54,14 +67,14 @@
         <div class="container">
         <form class="row g-2">
         <div class="mb-2  col-5">
-        <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="" style="margin-left: 4em;">
+        <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="" style="margin-left: 1em;">
         </div>
-        <div class=" mb-2 col-4">
-        <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="precio con unidad con IVA" style="margin-left: 4em;">
+        <div class=" mb-3 col-3">
+        <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="precio con unidad con IVA" style="margin-left: 1em;">
         </div>
         <div class=" mb-2 col-3">
         <label for="inputPassword2" class="visually-hidden">$ 20.000</label>
-        <input type="password" class="form-control" id="inputPassword2" placeholder="$200.000" style="margin-left: 4em;">
+        <input type="password" class="form-control" id="inputPassword2" placeholder="$200.000" style="margin-left: 1em;">
         </div>
         </form>
         </div>
@@ -70,14 +83,14 @@
          <div class="container">
          <form class="row g-2">
          <div class="mb-2  col-5">
-         <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="" style="margin-left: 4em;">
+         <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="" style="margin-left: 1em;">
          </div>
          <div class=" mb-2 col-4">
-         <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="precio total con IVA" style="margin-left: 4em;">
+         <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="precio total con IVA" style="margin-left: 1em;">
         </div>
-        <div class=" mb-2 col-3">
-        <label for="inputPassword2" class="visually-hidden" style="margin-left: 4em;">$ 150.000</label>
-        <input type="password" class="form-control" id="inputPassword2" placeholder="$150.000" style="margin-left: 4em;">
+        <div class=" mb-3 col-3">
+        <label for="inputPassword2" class="visually-hidden" style="margin-left: 1em;">$ 150.000</label>
+        <input type="password" class="form-control" id="inputPassword2" placeholder="$150.000" style="margin-left: 2em;">
         </div>
         </form>
         </div>
@@ -89,11 +102,11 @@
         <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
         </div>
         <div class=" mb-2 col-4">
-        <input type="text" readonly class="form-control-plaintext precio-Iva" id="staticEmail2" value="valor total con IVA" style="margin:3em 0em 0em 4em ;">
+        <input type="text" readonly class="form-control-plaintext precio-Iva" id="staticEmail2" value="valor total con IVA" style="margin:3em 0em 0em 2em ;">
         </div>
         <div class=" mb-2 col-3">
         <label for="inputPassword2" class="visually-hidden" style="margin-left: 4em;" >$ 400.000</label>
-        <input type="password" class="form-control " id="inputPassword2" placeholder="$400.000" style="margin:3em 0em 0em 4em ;">
+        <input type="password" class="form-control " id="inputPassword2" placeholder="$400.000" style="margin:3em 0em 0em 2em ;">
         </div>
         </form>
         </div>
@@ -101,7 +114,8 @@
 
         <button type="button" class="btn btn-success" style="margin: 2em 2em 2em 50em;"><i class="fas fa-box-open"></i></i><br> Realizar el pedido</button>
         <button type="button" class="btn btn-danger" style="margin: 2em 0em 2em 0em;"><i class="far fa-window-close "></i><br> Cancelar el pedido</button>
- </body>
+ </div>
+    </body>
     </html>
 
 

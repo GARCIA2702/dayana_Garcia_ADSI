@@ -1,18 +1,16 @@
+
 *{
     padding: 0px;
     margin: 0px;
 }
-.contenedor-1{
-    margin-left:12em ;
-    /* background: black; */
-    z-index: 5;
+.contenedor-1 {
+    height: calc(100% - 68px);
+    margin: 0 0 0 13em;
+  
 }
  .form-control-plaintext{
     text-align: right;
 } 
-/* .precio-Iva{
-
-} */
 
 .btn{
     cursor: pointer;
@@ -38,9 +36,45 @@
     font-family: 'Inconsolata', monospace; 
   
  }
- .precio-Iva{
- font-weight: 900;
- }
-body{
-    background-color: rgb(87, 15, 54);
+
+
+nav{
+    height: calc(100% - 68px);
+    width: 200px;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    overflow: auto;
+    background-color: rgb(25, 135, 84);
+    list-style: none;
+    text-decoration: none;
 }
+
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    color: black;
+    font-family: 'Handlee', cursive;
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 20em;
+
+}
+li{
+    list-style: none; 
+    text-decoration: none;
+    padding-bottom: 16px;
+}
+.registro{
+    padding-top: 20px;
+}
+
+.row-style{
+    padding: 30px 0;
+}
+.fa-angle-double-left{
+    color: black;
+    font-size: 2em;
+    margin: 10px 0;
+    }
+    
