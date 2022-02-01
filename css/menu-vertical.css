@@ -2,11 +2,7 @@
     margin: 0;
     padding: 0;
 }
-h1{
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 25px;
-}
+
 .inicio-inicio ul{
     list-style: none;
     margin: 10px 20px 10px 0px;
@@ -31,21 +27,12 @@ h1{
     color:black;
     margin: 2px;
 }
-.inicio-inicio li:hover{
+.inicio-inicio .inicio-menu:hover{
    background-color: rgb(248, 240, 125);
   
 }
-p{
-    font-size: 1.5em;
-    margin: 0px 0px 0px 150px;
-}
-.content-main{
-    
-    /* margin: 4em 4em 0 80em; */
-    text-align:right  ;
-    border-bottom: black;
-}
- .inicio-inicio li{
+
+.inicio-inicio .inicio-menu{
    /* float: bottom;
     float: left;
     padding: 2px;
@@ -82,6 +69,10 @@ p{
 }
 .fa-people-carry{
     margin-right: 10px;
+}
+
+.pagina-inicio{
+    background-color: brown;
 }
 
 

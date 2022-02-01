@@ -45,3 +45,15 @@
   font-weight: 900;
   font-size: 1.2em;
   }
+  .fuentes{
+   
+    margin: 2em 0em 0em 16em;
+    background-color: rgb(225, 225, 225, );
+    border: none;
+  }
+  h1{
+    text-align: center;
+  }
+  body{
+    background-color: rgb(225, 225, 225, );
+  }

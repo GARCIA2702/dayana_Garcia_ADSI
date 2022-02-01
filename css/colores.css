@@ -26,3 +26,14 @@ p.font-30 {
   .color-madera {
     color:rgb(103,70,55);
   }
+  .colores{
+    background-color: white;
+    margin: 0em 28em 0em 28em;
+    padding: 2em;
+  }
+  h1{
+    text-align: center;
+  }
+  body{
+    background-color: salmon;
+  }

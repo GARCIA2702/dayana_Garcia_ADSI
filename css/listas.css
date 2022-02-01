@@ -1,14 +1,52 @@
-.inicio{
+/*.inicio{
 
     font-size: 15px;
     display: block;
     background-color: white;
 
+}*/
+*{
+    margin: 0px;
+    padding: 0px;
 }
 span.titulo-lista{
-    background-color: white;
+   /* background-color: white;*/
     font-weight: 900;
 font-size: 1.2em;
-
+}
+h1{
+    text-align: center;
+}
+.lista-ordenada{
+background-color:rgb(81,45,109);
+width: 8em;
+height: 22em;
+display: inline-block;
+margin: 0px 10px;
+padding: 2em;
+}
+.lista-desordenada{
+background-color: rgb(248,72,94);
+    width: 18em;
+    height: 18em;
+    display: inline-block;
+    margin:0em;
+    border-radius:5px ;
+   padding:2em;
+}
+h1{
+    text-align: center  ;
+}
+.inicio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1em;
+}
+.listas-listas{
+    display:block;
+    width: 30em;
+   height: 30em;
+    margin-left: 20em;
+    margin-right: 2em;
+   background-color: blue;
     
 }

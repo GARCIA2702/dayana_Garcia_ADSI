@@ -3,6 +3,7 @@
 }
 p{
     font-size:1.5em;
+    margin-left: 11em;
 }
 .alineacion-centro {
     text-align: center;
@@ -36,5 +37,7 @@ font-family: 'Patrick Hand', cursive;
     font-family: 'Caveat', cursive;
 font-family: 'Patrick Hand', cursive;
     }
-
+h1, h2{
+    margin-left: 10em;
+}
 

@@ -4,7 +4,7 @@
 }
 
 
-li {
+.inicio-inicio {
    
     list-style: none;
     padding: 8px;
@@ -81,7 +81,7 @@ body{
     grid-area: content-page;
 
 } */
-li:hover {
+.inicio-inicio:hover {
     background-color: rgba(121, 120, 120, 0.8);
     cursor: pointer;
 }
