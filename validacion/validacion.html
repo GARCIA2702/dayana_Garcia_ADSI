@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>validacion de campos</title>
-    <script type="js/validacion.js"></script>
-   <link rel="stylesheet" href="css/validacion.css">
+  <link rel="stylesheet" href="css/validacion.css"> 
 
    <link rel="stylesheet" href="css/style1.css">
 <link rel="stylesheet" href="css/vertical-menu.css">
@@ -17,26 +16,22 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Merriweather&display=swap" rel="stylesheet">
-<script src="js/menu.js"></script>
+
 </head>
 <body>
-<h1>REGISTRO A CONVOCATORIAS</h1>
-<div class="contenedor">
-  <form onsubmit='return validar();' >
-  <label > Nombre:</label>
-   <input type="text" id="nombre" class="campo" name="nombre"><br>
-
-   <label >Apellido:</label>
-   <input type="text" id="apellido" class="campo1" name="apellido"><br>
-
-   <label ></label> Profesion:</label>
-   <input type="text" id="profesion" class="campo1" name="profesion"><br>
-
-   <label >Correo:</label>
-   <input type="text" id="correo" class="campo" name="correo">  <br>
-  
-   <input type="submit" value="Enviar" class="enviar" id="btnenviar"> 
-</form>
- </div>
+</head>
+<body>
+    <form onsubmit="validar('nombre','apellido','profesion','correo','fnac');">
+      
+        <h1>REGISTRO DE CONVOCATORIAS</h1>
+        <div class="contenedor">
+        <label for="">Nombres</label><input type="text" id="nombre" class="campo"><br>
+        <label for="">apellido</label><input type="text"  id="apellido" class="campo"><br> 
+            <label for="">profesion</label> <input type="text"  id="profesion" class="campo"><br>
+            <label for="">correo</label><input type="text" id="correo" class="campo"> <br>
+            <input type="submit"  value="Enviar" class="enviar"> 
+            </div>   
+    </form>
 </body>
-</html>
+<script src="js/validacion.js"></script>
+</html> 

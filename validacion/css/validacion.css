@@ -12,28 +12,19 @@ border: none;
 background-color: black;
 color: bisque;
 }
-.campo1{
-    height: 2em;
-    width: 270px;
-    border: none;
-    border-radius: 2em;
-    margin: 1em;
-    background-color: black;
-    color: bisque;
-}
+
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    margin-right: 4em;
    padding: 2em;
 }
-form{
-    margin: auto;
-}
-.contenedor{
+
+ .contenedor{
     
     margin: 0em 45em 0em 27em;
     padding: 2em;
-}
+ 
+} 
 .enviar{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     background-color: black;
@@ -45,3 +36,4 @@ form{
     margin: 2em 5em;
     font-size: 1em;
 }
+

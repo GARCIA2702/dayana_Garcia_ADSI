@@ -15,6 +15,7 @@ img{
 .img-catalogo{
     display: inline;
     line-height: -1em;
+    margin-bottom: 2em;
     }
 
   p{
@@ -29,7 +30,7 @@ font-size: 1.2em;
 div{
    display: inline-block;
     margin:  50px;
-    height: 150px;
+    height: 180px;
     width: 250px;
 }
 .tenis-gratis{

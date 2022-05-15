@@ -19,18 +19,18 @@ h1{
 }
 .lista-ordenada{
 background-color:rgb(81,45,109);
-width: 8em;
+width: 12em;
 height: 22em;
 display: inline-block;
-margin: 0px 10px;
+margin:4em 6em 4em 20em;
 padding: 2em;
 }
 .lista-desordenada{
 background-color: rgb(248,72,94);
-    width: 18em;
+    width: 12em;
     height: 18em;
     display: inline-block;
-    margin:0em;
+    margin:4em 6em 4em 0em;
     border-radius:5px ;
    padding:2em;
 }

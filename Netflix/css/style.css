@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-color: black;
+}
+h1{
+    color: white;
+   margin:10px 9px 4px 9px ;
+    font-size: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.texto{
+    color: white;
+  margin: 1em 3em 2em 2em;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}  
+
+.pelicula {
+    width: 180px;
+    height:250px;
+    cursor: pointer;
+    margin-left: 9px;    
+}
+.principalcinta{
+    display: block;
+    display: flex; 
+    justify-content: right;
+    width: 100%;
+    height: 380px;
+      
+}
+.imgInicio{
+    width: 750px;
+   
+}
