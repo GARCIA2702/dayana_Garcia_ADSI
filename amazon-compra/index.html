@@ -9,12 +9,13 @@
 </head>
 <body>
     <div class="img-el-secreto"> 
-        <div> <h1>Subtotal</h1></div>
-        <div class="barra-pago"> <h1>Proceder al pago</h1></div>
+        <div class="subtotal"> Subtotal <label id="precioTotalNoFijo"></label></div>
+        <div class="barra-pago"> <h1>Proceder al pago ( <label id="producto"></label>)</h1></div>
         <img class="libro-el-secreto" src="img/el-secreto.jpg" alt="el secreto">
 
-        <div class="columna1"> <label> Ipsam veritatis exercitationem nihil doloribus, voluptates ducimus culpa corporis pariatur incidunt! Molestias.</label> <br><br>
-            <label>Rhonda Byrne</label>
+        <div class="columna1"> <label> EL SECRETO <br><br> Ipsam veritatis exercitationem nihil doloribus, voluptates ducimus culpa corporis pariatur incidunt! Molestias.</label> <br><br>
+            <label class="escritor">Rhonda Byrne</label>
+            <div class="mostrarTotal"> $<label id="costoFijo" >120000</label></div>
 
         <div class="boton-opcional"><button type="button" class="eliminar " name="Eliminar">Eliminar</button><br>
         <button type="button" class="despues " name="Guardar para mas tarde">Guardar para mas tarde</button>
