@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+}
+.img-el-secreto{
+display: grid;
+width: 100%;
+background-color: white;
+grid-template: "empty-top     empty-top               empty-top         empty-top" 50px 
+               "empty-izq     barra-pago              barra-pago        empty-der" 
+               "empty-izq     libro-el-secreto        columna1          empty-der" 
+                "empty-izq     boton-aumentador       columna1          empty-der"
+                 "empty-izq    boton-aumentador       boton-opcional    empty-der"auto/
+                50px          400px                   300px              1fr;
+}
+.libro-el-secreto{
+    grid-area: libro-el-secreto;
+ width: 100%;
+
+  
+}
+.columna1{
+    grid-area: columna1;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+margin-left: 2em;
+}
+.barra-pago{
+    grid-area:barra-pago;
+    width:120%;
+    background-color:rgb(190, 117, 73);
+    border-radius: 20px;
+    padding: 1em;
+    margin-bottom: 4em;
+}
+.boton{
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    background-color:rgb(190, 117, 73);
+  font-family: 'Courier New', Courier, monospace;
+}
+.boton-aumentador{
+    grid-area:boton-aumentador;
+    width: 100%;
+  border-radius: 2em;
+}
+.botton-resta{
+    border-radius: 1em 0em 0em 1em ;
+    margin: 6px 0em 0em 0px;
+     padding: 16px; 
+    font-size: 2em;
+    font-weight: 900;
+}
+.botton-suma{
+    border-radius: 0em 1em 1em 0em ;
+     padding: 16px; 
+    font-size: 2em;
+    font-weight: 900;
+}
+.botton-numero{
+    font-size: 2em;
+      padding:16px; 
+     font-weight: 900;  
+}
+.boton-opcional{
+    grid-area:boton-opcional; 
+    width: 100%;
+}
+.eliminar{
+    width: 10em;
+    height: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    margin: 2em 0em 0em 1em;
+    font-weight: 900;
+    border-radius: 8px;
+    background-color:rgb(232, 185, 116);
+    border: none; 
+    
+}
+.despues{
+    width: 16em;
+    height: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    margin: 1em 0em 0em 1em;
+    font-weight: 900;
+    border-radius: 8px; 
+    border: none; 
+    background-color:rgb(232, 185, 116); 
+}
